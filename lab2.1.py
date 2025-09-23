@@ -1,8 +1,16 @@
 import math
+import array
+
+
+def ispow2(m):
+    for i in range(len(m)):
+        if (m[i] > 0):
+            resultLog = math.log2(m[i])
+            if(resultLog.is_integer()):
+                print("index",i,"value",m[i])
 
 
 
 
-
-
-m = [30,20,10,5,1]
+m = array.array('i',[5,3,5,8])
+ispow2(m)
