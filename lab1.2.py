@@ -1,5 +1,5 @@
 def WhiteBishop1():
-    x = int(input("Enter x for first bishop1: "))
+    x = int(input("Enter x for first white bishop1: "))
     y = int(input("Enter y for first bishop1: "))
     if (x < 1 or x > 8 or y < 1 or y > 8):
         print("Error")
@@ -7,7 +7,7 @@ def WhiteBishop1():
     return x, y
 
 def WhiteBishop2():
-    x = int(input("Enter x for first bishop2: "))
+    x = int(input("Enter x for first white bishop2: "))
     y = int(input("Enter y for first bishop2: "))
     if (x < 1 or x > 8 or y < 1 or y > 8):
         print("Error")
